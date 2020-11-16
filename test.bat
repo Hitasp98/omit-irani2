@@ -1,10 +1,10 @@
-	 	 	 	 	 	s	c	 	c	 
-	R	 	 	R	 	R	 	 	 	 
-	 	 	 	s	 	 	 	 	s	 
-	 	 	 	 	c	 	R	R	 	 
-	c	 	 	s	 	 	 	 	 	R
-	s	 	 	R	 	 	s	 	s	 
-	 	 	 	 	s	 	 	c	 	 
-	s	 	 	c	c	 	c	 	 	 
-	 	c	 	s	 	 	 	R	 	R
-	 	s	 	 	c	R	R	 	c	 
+	 	c	R	R	c	 	R	 	 	R
+	 	R	R	 	 	 	 	 	c	 
+	 	 	 	 	s	s	 	 	 	R
+	 	 	 	 	 	c	c	 	R	s
+	 	c	s	 	c	s	 	 	 	 
+	 	 	 	 	R	 	 	c	 	 
+	R	 	 	 	 	s	 	 	 	 
+	 	 	s	 	 	 	 	 	 	 
+	 	 	 	s	 	 	 	 	 	 
+	c	c	s	 	c	 	s	s	R	 

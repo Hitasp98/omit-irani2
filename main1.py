@@ -35,6 +35,7 @@ print(ss)
 try:
     with open("test.bat","w") as f:
                 f.write(ss)
+                f.close()
 except TypError:
     print("There was a type error!")
 
