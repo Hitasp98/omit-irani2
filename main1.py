@@ -19,9 +19,28 @@ for i in range(11):
             while a[r2]!=' ':
                 r2=random.randint(1,100)
             a[r2]="c"
-            while a[r2]!=' ':
-                r2=random.randint(1,100)
-            a[r2]="R"
+#sakh khargosh 
+# harf N do khar gosh shbihm dar yke  khane bodn nabod shodn
+            randR=random.randint(1,2)
+            if randR==1:
+                rabit="Rm"
+            elif randR==2:
+                rabit="Rf"
+            r2=random.randint(1,100)
+            while a[r2]=="s" or a[r2]=="c":
+                 r2=random.randint(1,100)
+
+            if a[r2]==" ":
+                a[r2]=rabit
+            elif a[r2]=="Rm" or a[r2]=="Rf":
+                if a[r2]==rabit:
+                    a[r2]="N"
+                elif a[r2]!=rabit:
+                    a[r2]="Rb"
+            elif a[r2]=="Rb":
+                continue
+        
+           
 #nmaysh jadval
 ss=""
 for s in range(1,101):
