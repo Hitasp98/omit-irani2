@@ -5,8 +5,7 @@
 #start
 import numpy as np
 import random
-#1 farakhni ktabkhane random
-# 2 skht arye 101 tayy bekhter ziba namysh dadn 101 shod
+# 2 skht arye 101 tayy behter ziba namysh dadn 101 shod
 # a=[' ' for x in range(101)] 
 a=np.arange(101)
 a=[' ' for x in range(101)]
@@ -21,11 +20,13 @@ for i in range(11):
             a[r2]="c"
 #sakh khargosh 
 # harf N do khar gosh shbihm dar yke  khane bodn nabod shodn
-            randR=random.randint(1,2)
+            randR=random.randint(1,3)
             if randR==1:
                 rabit="Rm"
             elif randR==2:
                 rabit="Rf"
+            elif randR==3:
+                rabit="R"
             r2=random.randint(1,100)
             while a[r2]=="s" or a[r2]=="c":
                  r2=random.randint(1,100)
@@ -38,6 +39,8 @@ for i in range(11):
                 elif a[r2]!=rabit:
                     a[r2]="Rb"
             elif a[r2]=="Rb":
+                continue
+            elif a[r2]=="R":
                 continue
         
            
